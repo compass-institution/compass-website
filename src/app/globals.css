@@ -1,23 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 'background';
+@font-face{
+  font-family: 'NewYork';
+  src: url('../../public/assets/NewYork.otf') ;
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb))
+  background: theme('colors.background-grey');
+  color: theme('colors.dark-blue');
+  @apply font-montserrat
+}
+
+h1 {
+  @apply font-newyork text-8xl mb-6;
+  
+}
+
+h2 {
+  @apply font-newyork text-6xl mb-6
+}
+
+h3 {
+  @apply tracking-super-wide mb-6
+}
+
+.gradient-orb {
+  width: 1000px; 
+  height: 1000px;
+  background: radial-gradient(circle 500px at center, #B8BDED, #f2f2f2);
+  border-radius: 50%;
+  z-index: -1000;
+  opacity: 80%;
+}
+
+.top-orb {
+  @apply absolute -z-10 top-96 -left-96
+}
+
+.mid-orb {
+  @apply absolute -z-20 top-448 -right-96
+}
+
+.bottom-orb {
+  @apply absolute -z-20 top-784 -left-96
+}
+
+
+.page-header-div {
+  @apply flex flex-col items-center justify-center min-h-screen text-center
+}
+
+.body-text {
+  @apply text-base font-light
+}
+
+.sub-description {
+  @apply max-w-xl mx-auto
 }
 
 @layer utilities {
