@@ -13,6 +13,7 @@
 body {
   background: theme('colors.background-grey');
   color: theme('colors.dark-blue');
+  overflow-x: hidden;
   @apply font-montserrat
 }
 
@@ -61,6 +62,10 @@ h3 {
 
 .sub-description {
   @apply max-w-xl mx-auto
+}
+
+.nav-bar {
+  backdrop-filter: blur(16px);
 }
 
 @layer utilities {

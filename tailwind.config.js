@@ -74,5 +74,13 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-filters'),
+  ],
+  variants: {
+    extend: {
+      backdropFilter: ['hover', 'focus'],
+      // ...
+    },
+  },
 };
