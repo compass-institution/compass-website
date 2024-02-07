@@ -8,8 +8,9 @@ export default function Home() {
      
     {/*TODO: MOVE ALL BELOW ONTO HOME PAGE -- HERE FOR EXAMPLE */}
     
-      
-    
+      <div className="nav-bar-container">
+        <NavBar></NavBar>
+      </div>
 
       <div className="relative">
       
@@ -20,7 +21,7 @@ export default function Home() {
       <div className="page-header-div">
         <h1>COMPASS Institution</h1>
         <h3>MATHEMATICAL MODELING FOR SOCIAL GOOD</h3>
-        <NavBar></NavBar>
+        
         <p className="body-text sub-description">
           We're a student run organization partnering with local and international organizations to amplify their impact through mathematics, computer science and data science.
         </p>

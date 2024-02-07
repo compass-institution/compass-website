@@ -64,8 +64,8 @@ h3 {
   @apply max-w-xl mx-auto
 }
 
-.nav-bar {
-  backdrop-filter: blur(16px);
+.nav-bar-container{
+  @apply fixed flex justify-center items-center py-3 w-full
 }
 
 @layer utilities {
@@ -73,3 +73,4 @@ h3 {
     text-wrap: balance;
   }
 }
+
