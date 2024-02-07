@@ -13,6 +13,7 @@
 body {
   background: theme('colors.background-grey');
   color: theme('colors.dark-blue');
+  overflow-x: hidden;
   @apply font-montserrat
 }
 
@@ -63,8 +64,13 @@ h3 {
   @apply max-w-xl mx-auto
 }
 
+.nav-bar-container{
+  @apply fixed flex justify-center items-center py-3 w-full
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
