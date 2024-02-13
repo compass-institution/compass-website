@@ -8,8 +8,8 @@ export default function Blog() {
         <div className="nav-bar-container"><NavBar></NavBar></div>
 
         <div className="relative">
-            <div className="gradient-orb top-orb"></div>
-            <div className="gradient-orb mid-orb"></div>
+            <div className="gradient-orb top-orb-a"></div>
+            <div className="gradient-orb mid-orb-a"></div>
         </div>
 
         <div className="page-header-div">

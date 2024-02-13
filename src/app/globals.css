@@ -39,16 +39,30 @@ h3 {
   opacity: 80%;
 }
 
-.top-orb {
+/* Orb Classes for Home & Blog Page */
+.top-orb-a {
   @apply absolute -z-10 top-96 -left-96
 }
 
-.mid-orb {
+.mid-orb-a {
   @apply absolute -z-20 top-448 -right-96
 }
 
-.bottom-orb {
+.bottom-orb-a {
   @apply absolute -z-20 top-784 -left-96
+}
+
+/* Orb Classes for Other Pages */
+.top-orb-b {
+  @apply absolute -z-10 -left-96
+}
+
+.mid-orb-b {
+  @apply absolute -z-20 top-352 -right-96
+}
+
+.bottom-orb-b {
+  @apply absolute -z-20 top-688 -left-96
 }
 
 .page-header-div {

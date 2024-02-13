@@ -8,8 +8,9 @@ export default function AboutUs() {
         <div className="nav-bar-container"><NavBar></NavBar></div>
 
         <div className="relative">
-            <div className="gradient-orb top-orb"></div>
-            <div className="gradient-orb mid-orb"></div>
+            <div className="gradient-orb top-orb-b"></div>
+            <div className="gradient-orb mid-orb-b"></div>
+            <div className="gradient-orb bottom-orb-b"></div>
         </div>
 
         <div className="page-header-div">
