@@ -17,15 +17,15 @@ const NavBar = () => {
                     <path fillRule="evenodd" clipRule="evenodd" d="M13.6205 11.2922L7.41528 6.84204L11.8654 13.0473L7.41528 19.2526L13.6205 14.8024L19.8258 19.2526L15.3757 13.0473L19.8258 6.84204L13.6205 11.2922ZM13.61 14.5368C14.4384 14.5368 15.11 13.8652 15.11 13.0368C15.11 12.2083 14.4384 11.5368 13.61 11.5368C12.7816 11.5368 12.11 12.2083 12.11 13.0368C12.11 13.8652 12.7816 14.5368 13.61 14.5368Z" fill="#0D1B37"/>
                 </svg>
             </div>
-            <p className="compass">COMPASS</p>
+            <Link href="/" className="compass">COMPASS</Link>
         </div>
         
         <div className="links">
-            <p className="page-link">about us</p>
-            <p className="page-link">global</p>
-            <p className="page-link">local</p>
-            <p className="page-link">blog</p>
-            <p className="page-link">join us</p>
+            <Link href="/about-us" className="page-link">about us</Link>
+            <Link href="/global" className="page-link">global</Link>
+            <Link href="/local" className="page-link">local</Link>
+            <Link href="/blog" className="page-link">blog</Link>
+            <Link href="/join-us" className="page-link">join us</Link>
         </div>    
     </div>
             
