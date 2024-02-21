@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  padding-bottom: 45px;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  border-radius: 20px;
+  background: #fff;
+
+  /* Header/Footer Default */
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1),
+    0px -2px 12px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+
+  width: 355px;
+  height: 420px;
+
+  @apply rounded-3xl overflow-hidden shadow-md bg-white flex-col;
+}
+
+.card-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  z-index: -1;
+}
+
+.text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  padding: 0 62px 0 62px;
+
+  color: var(--Blue, #0d1b37);
+  text-align: center;
+
+  @apply font-montserrat;
+}
