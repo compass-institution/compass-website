@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "@/global_components/navbar";
-import Mission from "@/global_components/mission";
+import Mission from "@/components/home/mission";
+import Global from "@/components/home/global";
 export default function HomePage() {
   return (
     <>
@@ -26,6 +27,7 @@ export default function HomePage() {
 
       <div className="container">
         <Mission></Mission>
+        <Global></Global>
       </div>
     </>
   );

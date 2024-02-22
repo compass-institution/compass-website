@@ -1,5 +1,5 @@
 import React from "react";
-import "../mission.css";
+import "./card.css";
 
 export default function MissionCard({ img, description }) {
   return (

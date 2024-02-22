@@ -1,0 +1,28 @@
+.card-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  z-index: -1;
+}
+
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.global-container {
+  display: flex;
+  width: 1198px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  width: 514px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}

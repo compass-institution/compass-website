@@ -1,11 +1,11 @@
 import React from "react";
-import "./mission.css";
-import MissionCard from "./cards/missionCard";
-import BlueButton from "./buttons/blueButton";
+import "./home.css";
+import MissionCard from "../../global_components/cards/missionCard";
+import BlueButton from "../../global_components/buttons/blueButton";
 
 export default function Mission() {
   return (
-    <>
+    <div className="mission-container">
       <h2>Our Mission</h2>
       <div className="card-container">
         <MissionCard
@@ -23,6 +23,6 @@ export default function Mission() {
       </div>
 
       <BlueButton>LEARN MORE</BlueButton>
-    </>
+    </div>
   );
 }
